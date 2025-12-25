@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.profile h1 {
+  margin-bottom: 4px;
+}
+
+.profile p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.card.highlight {
+  border: 2px solid #2e7d32;
+}
+
+h2 {
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  background: #2e7d32;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.btn.secondary {
+  background: #1976d2;
+}
+
+.pay {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.note {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 8px;
+}
